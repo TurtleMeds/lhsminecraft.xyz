@@ -10,37 +10,47 @@
   font-weight: bold;
 }
 
-.under-construction {
-  background: #ffcc00;
-  color: #000;
-  font-weight: bold;
-  text-align: center;
-  padding: 12px;
-  border-bottom: 4px solid #ccx900;
-  font-family: "Cooper BT";
-}
-
 body {
   text-align: center;
 }
 
 .title {
   font-family: "Cooper BT";
-  font-weight: "bold";
+  font-weight: bold;
   font-size: 67pt;
   color: #cc0014;
+  margin-bottom: 0;
 }
 
 .subtitle {
   font-family: "Cooper BT";
-  font-weight: "regular";
+  font-weight: normal;
   font-size: 36pt;
   color: #000000;
+  margin-top: 0;
+  margin-bottom: 20%;
+}
+
+.link {
+  font-family: "Cooper BT";
+  font-weight: normal;
+  font-size: 36pt;
+  color: #000000;
+  padding-top: 20%;
+}
+
+.pretext {
+  font-family: "Cooper BT";
+  font-weight: normal;
+  font-size: 30pt;
+  color: #a6a6a6;
+  margin-bottom: 0;
 }
 
 .ip {
-    font-family: "Cooper BT";
-  font-weight: "regular";
+  font-family: "Cooper BT";
+  font-weight: bold;
   font-size: 36pt;
   color: #000000;
+  margin-top: 0;
 }
