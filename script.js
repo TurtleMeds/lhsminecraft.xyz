@@ -17,6 +17,7 @@ const images = [
   { src:"soul-sand.png", weight: 10 },
   { src:"spruce.png", weight: 80 },
   { src:"tnt.png", weight: 20 },
+  { src:"enchanting-table.gif", weight: 5}
 ];
 
 const totalWeight = images.reduce((sum, img) => sum + img.weight, 0);
