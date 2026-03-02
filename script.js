@@ -23,8 +23,9 @@ const images = [
 ];
 
 const totalWeight = images.reduce((sum, img) => sum + img.weight, 0);
+const imgElem = document.getElementById("image");
 
-// function chooseImage() { 
+function chooseImage() { 
   let random = Math.random() * totalWeight;
 
   let selected = images[0];
@@ -36,9 +37,9 @@ const totalWeight = images.reduce((sum, img) => sum + img.weight, 0);
     random -= img.weight;
   }
 
-  document.getElementById("image").src = "images/" + selected.src;
-// }
-// document.getElementById("image").onClick = chooseImage;
-// chooseImage();
+  imgElem.src = "images/" + selected.src;
+}
 
+chooseImage();
 
+imgElem.addEventListener("click", chooseImage);

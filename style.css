@@ -10,6 +10,16 @@
   font-weight: bold;
 }
 
+.under-construction {
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  padding: 12px;
+  border-bottom: 4px solid #ccx900;
+  font-family: "Cooper BT";
+}
+
 body {
   text-align: center;
 }
