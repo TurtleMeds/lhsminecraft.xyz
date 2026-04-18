@@ -52,3 +52,20 @@ body {
   color: #000000;
   margin-top: 0;
 }
+
+.textbox {
+  width: 30%;
+  text-align: left;
+  margin: 0 auto;
+  border: 2px black;
+}
+
+.parent {
+  display: grid;
+  place-items: center;
+}
+
+.goodbye {
+  text-align: left;
+  justify: true;
+}
